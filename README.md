@@ -1,11 +1,15 @@
-#Madison Academic High School Band Program
+===========================================
+ Madison Academic High School Band Program
+===========================================
 
 The Madison Academic High School Band Program began in 2003 when Madison originally opened. We contacted Mrs. Kristy White
 and asked for her approval to launch the website. She was very enthusiastic about us creating a website and gave us plenty of visual media and important information to our website. Kristy White has been the band instructor at Madison since 2015 and has never launched a band website before.
 
 The website was created by Robert Yin and Joseph Taylor to help both parents and students learn more about their school's band program.
 
-#The Website
+=============
+ The Website
+=============
 
 - Our website looks great and is easy to navigate on all devices. We understand that there are a plethora of devices out there, and we     want our website to be accessible to everyone.
 
