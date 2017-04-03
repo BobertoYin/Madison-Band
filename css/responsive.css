@@ -1,0 +1,257 @@
+@media (max-width: 800px) {
+
+/* ---- one gallery item per row ---- */
+  iframe,
+  img.gallery-pics {
+    width: 90%;
+    max-width: 390px;
+    margin: 5px 0;
+  } 
+
+}
+
+@media (min-width: 801px) and (max-width: 998px) {
+
+/* ---- two gallery items per row ---- */
+  iframe,
+  img.gallery-pics {
+    width: 47%;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:999px) {
+
+/* ---- resizes logo---- */
+  img.logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 998px) {
+
+/* ---- centers logo ---- */
+  img.logo {
+    display: block;
+    text-align: center;
+    margin: -15px auto;
+  }
+
+/* ---- adds bottom margin to name ---- */
+  .name {
+    margin-bottom: -10px;  
+  }
+
+/* ---- keeps page readable ---- */
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+ 
+/* ---- adds dividers to nav items---- */
+  .main-nav li {
+    border-top: 1px solid black;
+  }
+  
+  #navborder{
+    margin-bottom: -8px;
+    border-bottom: 1px solid black;
+  } 
+
+  .primary {
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+  }
+
+/* ---- formats single column page ---- */
+  .first {
+    border-bottom: 2px dashed black;
+  }
+
+  .first,
+  .primary,
+  .secondary {
+    margin-bottom: 10px;
+  }
+   
+/* ---- centers and resizes seal ---- */
+  .seal {
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+/* ---- resizes name and logo ---- */
+  .name {
+    font-size: 1.3em; 
+    margin-top: 10px;
+  } 
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-right: -30px;
+    margin-bottom: -50px;
+  }
+
+/* ---- repositions top of page link ---- */
+  .top-link {
+    top: 0;
+  }
+}
+
+@media (min-width: 999px) {
+
+/* ---- makes header fixed ---- */
+  .main-header {
+		position: fixed;
+		box-shadow: 0 1px 4px rgba(0,0,0,.4);
+		width: 100%;
+		top: 0;
+    z-index: 1000;
+	}
+
+/* ---- keeps content from going under header ---- */
+  body {
+    padding-top: 182px;
+  }
+
+/* ---- three gallery items per row ---- */
+  iframe,
+  img.gallery-pics {
+    width: 32%;
+    margin: 10px 0.5%;
+  }
+
+/* ---- adds text shadow and transition---- */
+  .name {
+    transition: all .3s ease-in-out;
+    margin-left: -100px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+/* ---- scale on hover ---- */
+  .name:hover {
+    transform: scale(1.045); 
+  }
+
+/* ---- moves logo closer to name ---- */
+  .logo {
+    margin: 0 -30px -60px 0;  
+  }
+
+/* ---- sticky footer ---- */
+  .wrap {
+    min-height: calc(100vh - 36.6vh);
+  }
+
+/* ---- adds top border to nav ---- */
+  .main-nav {
+    border-top: 2px solid black;
+    list-style:none;
+    margin:0 0 -8px 0;
+    padding:0;
+    text-align:center;
+  }
+
+/* ---- centers nav items ---- */
+  .main-nav li {
+    display:inline;
+  }
+
+  .main-nav a {
+    display:inline-block;
+    padding:10px;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+/* ---- three column layout---- */
+	.primary {
+    width: 34%
+  }
+
+	.secondary,
+	.tertiary {
+		width: 33%;
+	}
+    
+  .secondary,
+  .primary,
+  .tertiary,
+  .first,
+  .second {
+     float: left;
+  }
+
+  .primary {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+/* ---- two column layout---- */
+  .first,
+  .second {
+    width: 50%;
+  }
+
+  .first {
+    border-right: 1px solid black;
+  }
+
+/* ---- school seal format---- */
+  .seal {
+    width: 70px;
+    height: 70px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+/* ---- contact info list items---- */
+  .contact-info {
+    float: left;
+    margin: -25px 0 0 30px;
+    text-align: left;
+  }
+
+/* ---- school link format and transition---- */
+  .school {
+    float: right;
+    text-align: right;
+    margin: -35px 30px 0 0;
+    transition: all .3s ease-in-out;
+  }
+
+  .top-link {
+    margin-bottom: 3px;
+  }
+
+/* ---- scale school link on hover ---- */
+  .school:hover {
+    transform: scale(1.1); 
+  }
+
+/* ---- keeps back to top link out of header ---- */
+  .top-link {
+    top: 162.67px;
+  }
+
+/* ---- centers copyright ---- */
+  .copyright {
+    margin-left: -100px;
+  }
+
+/* ---- resize logo ---- */
+  .logo {
+    height: 125px;
+    width: 125px;
+  }

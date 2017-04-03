@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MAHS Band | Band Boosters</title>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Catamaran" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="shortcut icon" href="img/favicon1.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+  <div class="wrap"><!-- assists sticky footer -->
+<header name="top" class="main-header">
+		<div class="container clearfix">
+			<h1 class="name"><a href="index.html"><img class="logo" src="img/logo.svg" alt="Logo">Madison Academic Band Program</a></h1>
+		</div>
+    <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+				<li><a href="beginner.html">Beginner Band</a></li>
+				<li><a href="advanced.html">Advanced Band</a></li>
+				<li><a href="percussion.html">Percussion Band</a></li>
+				<li><a href="jazz.html">Jazz Band</a></li>
+        <li><a class="selected" href="boosters.html">Band Boosters</a></li>
+        <li id="navborder"><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</header><!--/.main-header-->   
+
+	<div class="container main clearfix">
+		
+    <div class="first col">
+      
+      <!-- Band Boosters form -->
+      <h2>Sign-Up Form</h2>
+      
+      <form action="booster_return.php" method="post">
+        <fieldset>
+          
+          <legend><span class="number">1</span>General Information</legend>
+          
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" placeholder="John Doe">
+          
+          <label for="mail">E-mail:</label>
+          <input type="email" id="email" name="user_email" placeholder="example@example.com">
+                   
+          <label>Male or female?</label>
+          <input type="radio" id="male" value="male" name="user_gender"><label for="male" class="light">Male</label><br>
+          <input type="radio" id="female" value="female" name="user_gender"><label for="female" class="light">Female</label><br>
+          
+        </fieldset>
+        
+        <fieldset>
+          
+          <legend><span class="number">2</span>Band Boosters</legend>
+          
+          <label for="job">Office Role:</label>
+          <select id="job" name="user_job">
+            <option value="president">President</option>
+            <option value="vice_president">Vice President</option>
+            <option value="secretary">Secretary</option>
+            <option value="treasurer">Treasurer</option>
+            <option value="volunteer">Volunteer</option>
+          </select>
+
+          <label for="provide">Services/materials you can provide:</label>
+          <input type="checkbox" id="uniforms" value="uniforms" name="provide"><label for="uniforms" class="light">Uniforms</label><br>
+          <input type="checkbox" id="fundraising" value="fundraising" name="provide"><label for="fundraising" class="light">Fundraising</label><br>
+          <input type="checkbox" id="hospitality" value="hospitality" name="provide"><label for="hospitality" class="light">Hospitality</label><br>
+          <input type="checkbox" id="communication" value="communication" name="provide"><label for="communication" class="light">PR/Communication</label><br>
+          <input type="checkbox" id="chaperone" value="chaperone" name="provide"><label for="chaperone" class="light">Chaperone</label><br>
+          <input type="checkbox" id="decorations" value="decorations" name="provide"><label for="decorations" class="light">Decorations</label><br>
+          <input type="checkbox" id="help" value="help" name="provide"><label for="help" class="light">An Extra Pair of Hands</label><br>
+                    
+        </fieldset>
+        
+        <button type="submit">Apply</button>
+        
+      </form>
+    </div><!--/.first-->
+    
+    <div class="second col about"> 
+      
+        <!-- about summary -->
+        <h2>About the Band Boosters Program</h2>
+      
+        <p>Band is an expensive activity. Instruments, equipment, uniforms and travel all cost a great deal of money. We have an active group of parents who work continually to supplement the band budget and to help provide the band with chaperones for travel and assistance with various performances and activities.</p>
+      <p>There are many areas in which parents can get involved in the band program. We need Band Booster Officers (President, Vice-President, Secretary, and Treasurer). We also need volunteers for various areas such as uniforms, fundraising, hospitality, PR/communication, chaperones, decorations, concerts and our talent show.</p>
+      <p>The Band Boosters meet quarterly in conjunction with a band activity, concert, or program.</p>
+      
+      <!-- logo -->
+      <p style="text-align:center;"><img src="img/logo.svg" width=170 height=170></p>
+		</div><!--/.second-->
+		
+	</div><!--/.container-->
+   
+  </div>
+  
+  <!-- back to top link -->
+  <div><a href="#top"><h4 class="top-link"><img src="img/topofpage.svg" width=20 height=20></h4></a></div>
+
+	<footer class="main-footer">
+		<span class="copyright">2017 Madison Academic Band Program</span>
+    <!-- footer contact links -->
+    <ul class="contact-info">
+      <li><a href="mailto:khwhite@jmcss.org">Email: khwhite@jmcss.org</a></li>
+      <li><a href="tel:(731)506-3139">Phone: (731) 506-3139</a></li>
+      <li><a href="https://goo.gl/maps/ciYRy5PTimu" target="blank">Location: 179 Allen Avenue, Jackson, TN 38301</a></li>
+    </ul>
+    <!-- more about the school link -->
+    <a class="school" href="http://mad.jmcss.org/files/_GbLAt_/9011aef5099d6a453745a49013852ec4/about_us.pdf" target="blank"><img src="img/school-seal.png" class="seal">Learn More About Our School</a>
+	</footer>
+	
+</body>
+</html>
